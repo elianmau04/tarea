@@ -1,0 +1,28 @@
+.custom-card {
+  background-color: #fff3cd; 
+  border: 2px solid #ffc107;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 220px;
+  overflow: hidden;
+}
+
+.custom-card img {
+  max-width: 100%;
+  border-radius: 12px 0 0 12px;
+}
+
+.custom-button {
+  background-color: #dac82c; /* Verde */
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #218838; /* Verde más oscuro */
+}
